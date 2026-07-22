@@ -40,7 +40,7 @@ I used Power Query to:
 - Structure the data for analysis
 
 ### Pivot Tables
-images/
+
 
 I created Pivot Tables to analyse:
 
