@@ -41,6 +41,7 @@ I used Power Query to:
 
 ### Pivot Tables
 
+<img width="711" height="322" alt="image" src="https://github.com/user-attachments/assets/0a0e287b-fad8-4366-97de-7a9ab38e39db" />
 
 I created Pivot Tables to analyse:
 
@@ -48,7 +49,6 @@ I created Pivot Tables to analyse:
 - Sales by Gender
 - Sales by Age Group
 - Monthly Sales Performance
-- Customer Purchasing Patterns
 
 ### Pivot Charts
 
