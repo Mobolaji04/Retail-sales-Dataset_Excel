@@ -26,7 +26,7 @@ I also created an additional field called **Age Group** to categorise customers 
 - Adult
 - Senior
 
-based on customer age. 【1-73ba48】
+based on customer age. 
 
 ## Skills Demonstrated
 
@@ -40,6 +40,7 @@ I used Power Query to:
 - Structure the data for analysis
 
 ### Pivot Tables
+images/
 
 I created Pivot Tables to analyse:
 
