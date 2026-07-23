@@ -1,13 +1,16 @@
-# Retail Sales Data Analysis with Excel
+# 🛍️ Retail Sales Data Analysis with Excel
 
-## Project Overview
-This project showcases my learning journey in Microsoft Excel through the analysis of a retail sales dataset containing 1,000 customer transactions.
+## 📖 Project Overview
 
-The project focused on transforming raw sales data into meaningful insights using Power Query, Pivot Tables, Pivot Charts, and Excel data analysis techniques.
+This project showcases my Excel learning journey through the analysis of a retail sales dataset containing over 1,000 customer transactions.
 
-## Dataset Information
+The project focused on transforming raw sales data into meaningful business insights using Microsoft Excel's advanced analytical tools. Throughout the project, I developed practical skills in data preparation, Power Query, Cell Referencing, Pivot Tables, Pivot Charts, and Data Visualisation.
 
-The dataset contains:
+---
+
+## 📊 Dataset Information
+
+The dataset contains the following fields:
 
 - Transaction ID
 - Date
@@ -19,152 +22,310 @@ The dataset contains:
 - Price per Unit
 - Total Sales
 
-I also created an additional field called **Age Group** to categorise customers as:
+### 🧩 Additional Data Modelling
 
-- Junior
-- Adult
-- Senior
+I created a custom **Age Group** column to classify customers into:
 
-based on customer age. 
+- 👦 Junior
+- 👨 Adult
+- 👴 Senior
 
-## Skills Demonstrated
+This helped improve customer segmentation and enabled demographic analysis.
 
-### Cell Referencing
+---
+
+# 🛠️ Skills Demonstrated
+
+## 🔗 Cell Referencing
 
 Developed a strong understanding of Excel cell referencing techniques and their importance in building accurate and dynamic spreadsheets.
 
-#### Relative Cell Referencing
+### ✅ Relative Cell Referencing
+
 Used relative references to create formulas that automatically adjust when copied across rows and columns.
 
-Example:
+**Example**
+
+```excel
 =B2*C2
+```
 
-This enabled efficient calculations across large datasets without manually editing formulas.
+Applications:
 
-#### Absolute Cell Referencing
-Used absolute references to lock specific cells within formulas when copying calculations.
+- Calculating Total Sales
+- Creating reusable formulas
+- Automating calculations across large datasets
 
-Example:
+### ✅ Absolute Cell Referencing
+
+Used absolute references to lock specific cells within formulas while copying calculations.
+
+**Example**
+
+```excel
 =B2*$G$2
+```
 
-This ensured that fixed values such as tax rates, percentages, or constant values remained unchanged across calculations.
+Applications:
 
-#### Mixed Cell Referencing
+- Fixed tax rates
+- Discount calculations
+- Constants used across multiple formulas
+
+### ✅ Mixed Cell Referencing
+
 Applied mixed references to lock either a row or a column while allowing the other to change.
 
-Examples:
-=$B2=B$2
+**Examples**
 
-This technique was useful when creating structured calculation tables and repeating formulas across multiple rows and columns.
+```excel
+=$B2
+```
 
-#### Key Learning Outcomes
-- Understood the differences between relative, absolute, and mixed references.
+```excel
+=B$2
+```
+
+Applications:
+
+- Structured calculation tables
+- Formula replication across rows and columns
+
+### 🎯 Key Learning Outcomes
+
+- Understood the differences between Relative, Absolute, and Mixed references.
 - Applied the appropriate reference type based on calculation requirements.
 - Improved formula accuracy and consistency.
 - Increased efficiency when working with large datasets.
-- Developed the ability to create scalable and reusable spreadsheet models.
-### Power Query
+- Developed reusable spreadsheet models.
+
+---
+
+## ⚡ Power Query
 
 Used Power Query to automate the process of importing, cleaning, and transforming retail sales data before analysis.
 
-#### Data Import and Preparation
+### 📥 Data Import and Preparation
+
 - Imported the retail sales dataset into Power Query.
-- Reviewed the dataset structure and identified key fields including Transaction ID, Date, Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, and Total Sales.
-- Ensured data was organised in a tabular format suitable for analysis.
+- Reviewed dataset structure and field relationships.
+- Examined columns such as Transaction ID, Date, Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, and Total Sales.
+- Ensured that the data was structured correctly and ready for analysis.
 
-#### Data Transformation
-- Changed column data types to ensure consistency and accuracy.
-- Validated numerical and date fields.
-- Renamed and managed columns where necessary.
-- Structured the dataset for reporting and analysis.
+### 🧹 Data Cleaning
 
-#### Creating an Age Group Column
-Created a custom column called **Age Group** to segment customers into:
-- Junior
-- Adult
-- Senior
+- Checked for inconsistencies within the dataset.
+- Validated column formats and values.
+- Ensured dates, numeric values, and text fields were correctly formatted.
+- Organised data into a clean and reliable structure.
 
-This helped make customer analysis more meaningful and allowed sales performance to be examined across different age demographics.
+### 🔄 Data Transformation
 
-#### Benefits Gained
+- Changed column data types where required.
+- Renamed and managed columns.
+- Structured raw data into an analysis-ready format.
+- Created transformations that could be refreshed whenever the source data changed.
+
+### 🧩 Creating an Age Group Column
+
+Created a custom column called **Age Group** to categorise customers into:
+
+- 👦 Junior
+- 👨 Adult
+- 👴 Senior
+
+This made customer segmentation easier and improved insight generation across different demographic groups.
+
+### 🚀 Benefits Gained
+
 - Improved data quality and consistency.
-- Reduced manual data preparation.
-- Created a repeatable data transformation process.
-- Prepared the dataset for Pivot Table analysis and reporting.
+- Reduced manual data preparation time.
+- Created a repeatable and automated process.
+- Improved confidence in data accuracy.
+- Prepared the dataset for reporting and visualisation.
 
+### 🎯 Skills Developed
 
-### Pivot Tables
+- Data Importing
+- Data Cleaning
+- Data Transformation
+- Query Editing
+- Data Structuring
+- Data Preparation Automation
+
+---
+
+## 📈 Pivot Tables
 
 Used Pivot Tables to summarise, organise, and analyse large volumes of retail sales data.
 
-#### Sales Analysis by Product Category
-Created Pivot Tables to compare total sales across product categories:
+### 🛍️ Sales Analysis by Product Category
 
-- Electronics (£156,905)
-- Clothing (£155,580)
-- Beauty (£143,515)
+Created Pivot Tables to calculate total sales across product categories.
 
-This helped identify the highest-performing category and compare category performance. 【1-ca6690】
+#### Results
 
-#### Customer Demographic Analysis
-Used Pivot Tables to analyse sales by:
+| Product Category | Total Sales |
+|------------------|------------|
+| ⚡ Electronics | £156,905 |
+| 👕 Clothing | £155,580 |
+| 💄 Beauty | £143,515 |
 
-- Age Group
-- Gender
-- Product Category
+These results helped identify the highest-performing product category and compare category performance.
 
-This enabled deeper insights into customer purchasing behaviour and spending patterns.
+### 👥 Customer Demographic Analysis
 
-#### Sales Performance Analysis
+Used Pivot Tables to analyse:
+
+- Sales by Age Group
+- Sales by Gender
+- Sales by Product Category
+- Customer purchasing behaviour
+
+This enabled deeper analysis of how different customer groups contributed to overall sales performance.
+
+### 📊 Sales Performance Analysis
+
 Used Pivot Tables to:
 
-- Calculate total sales.
-- Compare category performance.
-- Summarise customer transactions.
-- Identify trends and patterns within the dataset.
-- Generate business insights from raw data.
+- Calculate Total Sales
+- Compare Category Performance
+- Summarise Customer Transactions
+- Analyse Purchasing Trends
+- Monitor Sales Performance
+- Identify Revenue Drivers
 
-#### Skills Developed
-- Grouping and summarising data.
-- Creating calculated summaries.
-- Organising large datasets into meaningful reports.
-- Analysing business performance metrics.
-- Extracting insights from transactional data.
+### 🔍 Insight Generation
 
-### Pivot Charts
+Pivot Tables enabled me to:
 
-Used Pivot Charts to transform Pivot Table outputs into visual reports and dashboards.
+- Transform large datasets into structured summaries.
+- Identify trends and patterns quickly.
+- Compare multiple data categories simultaneously.
+- Generate business-focused insights.
+- Improve reporting efficiency.
 
-#### Data Visualisation
-Created charts to visualise:
+### 🎯 Skills Developed
 
-- Product category sales performance.
-- Customer demographic trends.
-- Sales distribution across categories.
-- Comparative sales performance.
+- Data Summarisation
+- Report Creation
+- Data Aggregation
+- Grouping and Categorisation
+- Trend Analysis
+- Business Reporting
+- Decision Support Analysis
 
-#### Reporting and Presentation
+---
+
+## 📉 Pivot Charts
+
+Used Pivot Charts to transform Pivot Table summaries into visual reports and dashboards.
+
+### 📊 Data Visualisation
+
+Created Pivot Charts to represent:
+
+- Product Category Sales Performance
+- Customer Demographics
+- Sales Trends
+- Category Comparisons
+- Business Performance Metrics
+
+### 🎨 Professional Reporting
+
 Used Pivot Charts to:
 
-- Present findings clearly and professionally.
-- Simplify complex datasets.
-- Highlight key trends and patterns.
+- Communicate findings visually.
+- Simplify large datasets.
+- Present reports in a professional format.
 - Support data-driven decision-making.
 
-#### Business Insights
-Pivot Charts made it easier to:
+### 📈 Trend Analysis
 
-- Identify top-performing product categories.
-- Compare sales results visually.
-- Spot patterns that may not be immediately obvious in tabular data.
-- Communicate analytical findings effectively to stakeholders.
+Pivot Charts allowed me to:
 
-#### Skills Developed
-- Chart creation and formatting.
-- Data storytelling.
-- Dashboard reporting.
-- Trend analysis.
-- Visual communication of business insights.
+- Compare category sales visually.
+- Identify top-performing categories.
+- Monitor performance trends.
+- Highlight key insights from the data.
 
-## Reflection
-Completing this project helped me move beyond basic Excel usage and develop practical data analysis skills. I gained hands-on experience using Power Query and Pivot Tables to transform raw retail sales data into meaningful insights and professional reports.
+### 💡 Business Insights
+
+Using Pivot Charts made it easier to:
+
+- Detect patterns within the dataset.
+- Identify opportunities for improvement.
+- Support performance discussions.
+- Present analytical findings clearly to stakeholders.
+
+### 🎯 Skills Developed
+
+- Chart Creation
+- Chart Formatting
+- Data Storytelling
+- Dashboard Reporting
+- Trend Analysis
+- Visual Communication
+- Business Insight Presentation
+
+---
+
+# 📚 What I Learned
+
+Through this project, I developed practical experience in:
+
+✅ Cell Referencing (Relative, Absolute & Mixed)
+
+✅ Power Query
+
+✅ Data Cleaning and Transformation
+
+✅ Customer Segmentation
+
+✅ Data Structuring
+
+✅ Pivot Tables
+
+✅ Pivot Charts
+
+✅ Data Visualisation
+
+✅ Report Creation
+
+✅ Trend Analysis
+
+✅ Business Reporting
+
+✅ Data-Driven Decision Making
+
+---
+
+# 🎯 Project Outcome
+
+By completing this project, I successfully transformed raw retail transaction data into meaningful business insights.
+
+The project strengthened my ability to:
+
+- Clean and prepare data efficiently.
+- Build repeatable data transformation processes.
+- Analyse customer and sales data.
+- Create professional reports using Pivot Tables and Pivot Charts.
+- Communicate findings through data visualisation.
+- Apply Excel as a business analysis and reporting tool.
+
+---
+
+# 🏆 Reflection
+
+This project significantly improved my confidence in Excel and helped me move beyond basic spreadsheet tasks.
+
+Learning how to use Power Query, Cell Referencing, Pivot Tables, and Pivot Charts provided me with practical skills that can be applied in:
+
+- Business Analysis
+- Data Reporting
+- Sales Analysis
+- Performance Monitoring
+- Decision Support
+- Data-Driven Problem Solving
+
+Excel is now one of my key tools for transforming raw data and producing professional reports.
